@@ -8,6 +8,7 @@ Source0:	http://go-mono.com/sources/monodevelop-java/%{name}-%{version}.tar.gz
 BuildRequires:	ikvm monodevelop >= 0.18
 Summary:	Monodevelop Java Addin
 Group:		Development/Other
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Monodevelop Java Addin
