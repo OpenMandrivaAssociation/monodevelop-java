@@ -1,11 +1,11 @@
 Name:     	monodevelop-java
-Version:	0.18
+Version:	0.19
 Release:	%mkrel 1
 License:	LGPL
 BuildArch:      noarch
 URL:		http://www.go-mono.com
 Source0:	http://go-mono.com/sources/monodevelop-java/%{name}-%{version}.tar.gz
-BuildRequires:	ikvm monodevelop >= 0.18
+BuildRequires:	ikvm monodevelop >= 0.19
 Summary:	Monodevelop Java Addin
 Group:		Development/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
