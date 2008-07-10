@@ -1,7 +1,7 @@
 Name:     	monodevelop-java
 Version:	1.0
 Release:	%mkrel 1
-License:	LGPL
+License:	GPLv2+
 BuildArch:      noarch
 URL:		http://www.go-mono.com
 Source0:	http://go-mono.com/sources/monodevelop-java/%{name}-%{version}.tar.gz
