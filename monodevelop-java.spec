@@ -1,6 +1,6 @@
 Name:     	monodevelop-java
 Version:	2.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPLv2+
 BuildArch:      noarch
 URL:		http://www.go-mono.com
