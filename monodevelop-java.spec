@@ -1,5 +1,5 @@
 Name:     	monodevelop-java
-Version:	2.2
+Version:	2.4
 Release:	%mkrel 1
 License:	GPLv2+
 BuildArch:      noarch
@@ -40,6 +40,7 @@ rm -rf "$RPM_BUILD_ROOT"
 %files -f %name.lang
 %defattr(-, root, root)
 %_prefix/share/pkgconfig/monodevelop-java.pc
+%dir %_prefix/lib/monodevelop/AddIns/JavaBinding/
 %_prefix/lib/monodevelop/AddIns/JavaBinding/JavaBinding.dll*
 %dir %_prefix/lib/monodevelop/AddIns/JavaBinding/locale/
 
