@@ -1,10 +1,10 @@
 Name:     	monodevelop-java
-Version:	2.4
-Release:	%mkrel 3
+Version:	2.6
+Release:	%mkrel 1
 License:	GPLv2+
 BuildArch:      noarch
 URL:		http://www.go-mono.com
-Source0:	http://ftp.novell.com/pub/mono/sources/monodevelop-java/%{name}-%{version}.tar.bz2
+Source0:	http://download.mono-project.com/sources/%{name}/%{name}-%{version}.tar.gz
 BuildRequires:	ikvm
 BuildRequires:  monodevelop >= %version
 BuildRequires:  mono-addins-devel
