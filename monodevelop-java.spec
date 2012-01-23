@@ -1,5 +1,5 @@
 Name:     	monodevelop-java
-Version:	2.8.5
+Version:	2.8.5.1
 Release:	%mkrel 1
 License:	GPLv2+
 BuildArch:      noarch
