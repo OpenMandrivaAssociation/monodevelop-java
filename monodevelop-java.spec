@@ -3,7 +3,7 @@ Version:	2.8.5.1
 Release:	%mkrel 1
 License:	GPLv2+
 BuildArch:      noarch
-URL:		http://www.go-mono.com
+URL:		https://www.go-mono.com
 Source0:	http://download.mono-project.com/sources/%name/%name-%version.tar.bz2
 BuildRequires:	ikvm
 BuildRequires:  monodevelop >= %version
